@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "61a347919b1653a129d45120"
+  },
+  "first_name": "Josephite"
+},{
+  "_id": {
+    "$oid": "61a348b59b1653a129d45121"
+  },
+  "first_name": "Sonu",
+  "last_name": "Anand",
+  "email": "nanandraj3@gmail.com",
+  "gender": "Male",
+  "ip_address": 12345,
+  "age": 29
+},{
+  "_id": {
+    "$oid": "61a348b59b1653a129d45122"
+  },
+  "first_name": "Karthik",
+  "last_name": "Boss",
+  "email": "karthik@gmail.com",
+  "gender": "Male",
+  "ip_address": 123456,
+  "age": 29
+},{
+  "_id": {
+    "$oid": "61a348b59b1653a129d45123"
+  },
+  "first_name": "David",
+  "last_name": "Hari",
+  "email": "davidhari@gmail.com",
+  "gender": "Male",
+  "ip_address": 1234567,
+  "age": 25
+}]
