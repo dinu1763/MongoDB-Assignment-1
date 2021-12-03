@@ -1,0 +1,13 @@
+ db.user.insert({first_name:"Dinesh", last_name:"Kumar",email:"dinu1763@gmail.com",gender:"Male",ip_address:1234,age:27})
+
+ db.user.insertMany([{first_name:"Sonu",last_name:"Anand",email:"nanandraj3@gmail.com",gender:"Male",ip_address:12345,age:29},{first_name:"Karthik",last_name:"Boss",email:"karthik@gmail.com",gender:"Male",ip_address:123456,age:29},{first_name:"David",last_name:"Hari",email:"davidhari@gmail.com",gender:"Male",ip_address:1234567,age:25} ])
+
+ db.user.find({first_name:"Dinesh"})
+
+ db.user.find({gender:"Male"})
+
+ db.user.update({first_name:"Dinesh"},{first_name:"Josephite"})
+
+ db.user.deleteOne({first_name:"Sonu"})
+
+ db.user.deleteMany({gender:"Male"})
